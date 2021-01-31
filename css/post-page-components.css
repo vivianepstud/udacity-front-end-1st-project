@@ -1,0 +1,142 @@
+article {
+  display: grid;
+  overflow: scroll;
+}
+
+
+/******POST BODY ******/
+
+.post-body {
+  background-color: #fff;
+  padding: 2em;
+}
+
+
+.post-body h3 {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.post-body h5 {
+  opacity: 0.5;
+  font-style: italic;
+  margin: 0;
+}
+
+
+
+/******FIGURE ******/
+figcaption {
+  font-style: italic;
+  padding: 1em;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+}
+
+
+/******AUTHOR CARD ******/
+
+.author-card {
+  display: grid;
+  grid-template-columns: 10vw 83vw;
+  grid-template-rows: max-content 10vh;
+  grid-template-areas: "st nd";
+  margin: 1em 0;
+  background-color: sandybrown;
+  color: white;
+  border: groove;
+}
+
+.author-card img {
+  grid-area: st;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.author-info {
+  grid-area: nd;
+  margin-left: 1em;
+}
+
+.author-info h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.author-info h3 {
+  color: darkcyan;
+  margin-bottom: 0.5em;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.author-info h4 {
+  margin-top: 0;
+}
+
+
+
+/******SOCIAL ICONS ******/
+
+.social-share{
+  
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+
+
+/******LINKS ******/
+
+
+.link-previous {
+  float: left;
+}
+
+.link-next {
+  float: right;
+}
+
+
+@media (min-width:701px) {
+
+  article {
+    padding: 2em;
+  }
+
+
+
+}

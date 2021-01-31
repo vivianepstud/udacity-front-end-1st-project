@@ -1,0 +1,65 @@
+
+
+
+section{
+  overflow: scroll;
+}
+.cards {
+  display: grid;
+  grid-template-areas: "fs" "snd" "trd";
+  gap: 3vh;
+  padding: 2em; 
+}
+
+.card {
+  background-color: white;
+  display: grid;
+  grid-template-rows: max-content 50%;
+  padding: 1em;
+}
+
+
+.card a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.card.smaller img {
+  object-fit: cover;
+  width: 100%;
+  
+}
+
+.card.bigger img {
+  height: auto;
+  width:100%
+}
+
+.card.bigger {
+  grid-area: fs;
+}
+
+.card.bigger h3 {
+  background-color: #fff;
+  color: darkslategray;
+  margin: 0;
+}
+
+
+
+
+@media (min-width:701px) {
+  .cards {
+    display: grid;
+    grid-template-areas: 
+    "fs snd trd" 
+    "fs .   .";
+    grid-template-rows: max-content 36vh 36vh;
+    grid-template-columns: repeat(auto-fill, max(30vw));
+
+  }
+
+
+
+}

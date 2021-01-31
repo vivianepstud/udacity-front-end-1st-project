@@ -1,0 +1,34 @@
+.main-layout {
+  display: grid;
+  grid-template-rows: 11vh 83vh 6vh
+}
+
+header{ 
+  grid-row: 1/2;
+  background-color: tomato;
+  color: white;
+
+}
+
+footer{ 
+  grid-row: 3/4;
+  background-color: tomato;
+  color: white;
+  
+}
+
+
+
+@media (min-width:701px) {
+
+
+  .main-layout {
+    display: grid;    
+    grid-template-rows: 9vh 85vh 6vh;
+
+  }
+  header {
+    display: grid;
+    grid-template-columns: 15fr 4fr;
+  }
+}
