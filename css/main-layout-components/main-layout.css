@@ -1,6 +1,6 @@
 .main-layout {
   display: grid;
-  grid-template-rows: 11vh 83vh 6vh
+  grid-template-rows: 7vh 87vh 6vh;
 }
 
 header{ 

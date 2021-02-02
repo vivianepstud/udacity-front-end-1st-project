@@ -1,12 +1,11 @@
 
 nav {
   display: none;
-  gap: 20px;
   grid-template-columns: 10fr 1fr 1fr;
 }
 
 
-.logo a {
+.logo .logo-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +13,13 @@ nav {
   color: white;
 }
 
-.logo img {
+.logo .logo-img {
   margin-right: 0.5em;
-  width: 10%;
-  height: 10%;
+  width: auto;
+  height: 6vh;
 }
 
-.logo h1 {
+.logo .logo-heading {
   font-size: 30px;
   margin: 0%;
 }
@@ -32,31 +31,31 @@ nav {
 
   nav{
     display: flex;
-    gap: 20px;
     justify-content: space-evenly;
-    align-items: center;
+    padding-top: 1em;
   }
   .logo {
     margin: 0%
   }
-  .logo a {
+  .logo .logo-link {
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
     color: white;
   }
-  .logo h1 {
+  .logo .logo-heading {
     font-size: 30px;
-    padding: 0.25em 0%;
+    padding-bottom: 0.25em;
     margin: 0%;
 
   }
   .menu-item {
-    font-size: 20px;
+    font-size: 17px;
   }
-  .logo img {
+  .logo .logo-img {
     margin-right: 0.5em;
-    width: 4%;
+    width: auto;
+    height: 8vh;
   }
 
 }

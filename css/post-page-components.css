@@ -11,13 +11,7 @@ article {
   padding: 2em;
 }
 
-
-.post-body h3 {
-  margin: 0;
-  margin-bottom: 1em;
-}
-
-.post-body h5 {
+.post-body .post-heading-five {
   opacity: 0.5;
   font-style: italic;
   margin: 0;
@@ -35,7 +29,7 @@ figure {
   text-align: center;
 }
 
-figure img {
+.post-body .post-first-image {
   width: 100%;
 }
 
@@ -44,16 +38,15 @@ figure img {
 
 .author-card {
   display: grid;
-  grid-template-columns: 10vw 83vw;
-  grid-template-rows: max-content 10vh;
+  grid-template-columns: 30vw 65vw;
   grid-template-areas: "st nd";
   margin: 1em 0;
-  background-color: sandybrown;
+  background-color: lightsalmon;
   color: white;
   border: groove;
 }
 
-.author-card img {
+.author-card .author-img {
   grid-area: st;
   object-fit: cover;
   width: 100%;
@@ -65,19 +58,19 @@ figure img {
   margin-left: 1em;
 }
 
-.author-info h2 {
+.author-info .author-info-heading-two {
   font-size: 2em;
   margin-bottom: 0;
 }
 
-.author-info h3 {
+.author-info .author-info-heading-three {
   color: darkcyan;
   margin-bottom: 0.5em;
   margin: 0;
   font-size: 1.5em;
 }
 
-.author-info h4 {
+.author-info .author-info-heading-four {
   margin-top: 0;
 }
 

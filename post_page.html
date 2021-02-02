@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Corgi Blog</title>
   <!-- <link rel="stylesheet" href="./css/main_page.css"> -->
   <link rel="stylesheet" href="./css/general.css">
@@ -16,22 +17,22 @@
   <div class="main-layout">
     <header>
       <div class="logo">
-        <a href=./index.html>
-          <img src=./images/icon-corgi.png alt="Website icon corgi dog">
-          <h1> The Corgi Archive</h1>
+        <a href=./index.html class="logo-link">
+          <img class="logo-img" src=./images/icon-corgi.png alt="Website icon corgi dog" >
+          <h1 class="logo-heading"> The Corgi Archive</h1>
         </a>
       </div>
       <nav>
         <a class="menu-item post">Posts</a>
         <a class="menu-item about">About</a>
-      <nav>
+      </nav>
     </header>
     <article>
-      
+
       <div class="post-body">
-        
-        <h2>Maxine is back to                                                                                                                                                         the streets of NYC!</h2>
-        <h5>Written by: John Doe</h5>
+
+        <h2>Maxine is back to the streets of NYC!</h2>
+        <h5 class="post-heading-five">Written by: John Doe</h5>
         <p>Vivamus orci leo, imperdiet blandit elit in, accumsan gravida turpis. Vivamus quam augue, laoreet et mattis
           vitae, dapibus nec nulla. Pellentesque sit amet dui lorem. Aliquam libero justo, lacinia at viverra in,
           feugiat id nibh. Nullam luctus sem ultricies fringilla dapibus. Ut eleifend dapibus vestibulum. Pellentesque
@@ -42,9 +43,14 @@
           consequat. Nunc facilisis elit in facilisis varius. Nunc accumsan lectus purus, in dignissim nibh porta nec.
         </p>
         <figure>
-        <img src=./images/posts-images/maxine.jpg alt="Corgi in a backpack at subway station">
-        <figcaption> Maxine at station X, NYC</figcaption>
-      </figure>
+          <img class="post-first-image" src=./images/posts-images/maxine.jpg alt="Corgi in a backpack at subway station">
+          <figcaption> Maxine at station X, NYC</figcaption>
+        </figure>
+        <blockquote cite="https://www.lipsum.com/">
+          Nullam luctus sem ultricies fringilla dapibus. Ut eleifend dapibus vestibulum. Pellentesque
+          mattis neque nec neque bibendum, blandit hendrerit neque tempus. Integer et justo imperdiet, varius ipsum in,
+          dapibus sapien. Pellentesque efficitur rutrum ipsum quis efficitur
+        </blockquote>
         <p>Duis auctor rhoncus erat eu imperdiet. Etiam eu imperdiet odio. Nullam lorem enim, imperdiet eu gravida
           molestie, placerat ut orci. Quisque maximus diam eu pharetra consequat. Donec dictum euismod tempus. Donec ac
           neque vel odio viverra vehicula. Praesent vel varius mi. Cras accumsan luctus ipsum et viverra. In quis dui ac
@@ -52,28 +58,29 @@
           ultricies bibendum. Nullam vitae tellus vitae nisi tincidunt sodales id sed risus. Sed auctor viverra
           tincidunt. Vestibulum maximus est felis, et convallis felis ultricies eget. Duis bibendum, magna ac euismod
           faucibus, ligula diam lacinia justo, quis suscipit risus velit id diam.</p>
-          <div class="social-share">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-          </div>
+        <div class="social-share">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
       </div>
       <div class="author-card">
-        <img src=https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg alt="Author photo"> 
-      <div class="author-info">
-        <h2>Author</h2>
-        <h3> John Doe</h3>
-        <h4>New York Times' Reporter </h4>
-        <p>Here is my short bio.Vestibulum maximus est felis, et convallis felis ultricies eget. Duis bibendum, magna ac euismod
-          faucibus, ligula diam lacinia justo, quis suscipit risus velit id diam </p>
+        <img class="author-img" src=https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg alt="Author photo">
+        <div class="author-info">
+          <h2 class="author-info-heading-two">Author</h2>
+          <h3 class="author-info-heading-three"> John Doe</h3>
+          <h4 class="author-info-heading-four">New York Times' Reporter </h4>
+          <p>Here is my short bio.Vestibulum maximus est felis, et convallis felis ultricies eget. Duis bibendum, magna
+            ac euismod
+            faucibus, ligula diam lacinia justo, quis suscipit risus velit id diam </p>
+        </div>
       </div>
-      </div>
-      <div class="links"> 
+      <div class="links">
         <a class="link-previous" href="/">Previous</a>
         <a class="link-next" href="/">Next</a>
-    </div>
+      </div>
 
-  </article>
+    </article>
 
     <footer>
       <div class="footer-menu">

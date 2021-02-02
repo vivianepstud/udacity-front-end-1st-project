@@ -1,6 +1,4 @@
 
-
-
 section{
   overflow: scroll;
 }
@@ -8,7 +6,6 @@ section{
   display: grid;
   grid-template-areas: "fs" "snd" "trd";
   gap: 3vh;
-  padding: 2em; 
 }
 
 .card {
@@ -19,19 +16,19 @@ section{
 }
 
 
-.card a{
+.card .card-link{
   text-decoration: none;
   color: black;
 }
 
 
-.card.smaller img {
+.card.smaller .card-smaller-img {
   object-fit: cover;
   width: 100%;
   
 }
 
-.card.bigger img {
+.card.bigger .card-bigger-img {
   height: auto;
   width:100%
 }
@@ -40,11 +37,7 @@ section{
   grid-area: fs;
 }
 
-.card.bigger h3 {
-  background-color: #fff;
-  color: darkslategray;
-  margin: 0;
-}
+
 
 
 
@@ -55,9 +48,9 @@ section{
     grid-template-areas: 
     "fs snd trd" 
     "fs .   .";
-    grid-template-rows: max-content 36vh 36vh;
+    grid-template-rows: max-content 36vh 36vh36vh 36vh;
     grid-template-columns: repeat(auto-fill, max(30vw));
-
+    padding: 2em; 
   }
 
 
