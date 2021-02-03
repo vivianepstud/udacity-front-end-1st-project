@@ -38,7 +38,7 @@ figure {
 
 .author-card {
   display: grid;
-  grid-template-columns: 30vw 65vw;
+  grid-template-columns: 15vw 80vw;
   grid-template-areas: "st nd";
   margin: 1em 0;
   background-color: lightsalmon;
