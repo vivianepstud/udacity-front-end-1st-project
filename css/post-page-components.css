@@ -38,8 +38,8 @@ figure {
 
 .author-card {
   display: grid;
-  grid-template-columns: 15vw 80vw;
-  grid-template-areas: "st nd";
+  grid-template-columns: 15vw 75vw 5vw;
+  grid-template-areas: "st nd rd";
   margin: 1em 0;
   background-color: lightsalmon;
   color: white;
@@ -74,6 +74,23 @@ figure {
   margin-top: 0;
 }
 
+.author-subscribe{
+  grid-area: rd;
+  margin-left: 1em;
+}
+.author-subscribe-button{
+  
+    background: #3B5998;
+    padding: 1em;
+    float: right;
+    border-radius: 0.6em;
+    border: none;
+    margin: 0.5em;
+    font-family: inherit;
+    font-weight: bold;
+    color: white;
+
+}
 
 
 /******SOCIAL ICONS ******/
